@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "5763c3e7-dab8-4399-a5d4-58950bc837d0",
+		"name": "GeoDjango",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/api/v1/get-weather/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "state",
+							"value": "columbia",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/v1/get-weather/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"get-weather",
+						""
+					]
+				},
+				"description": "Get Weather API"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/v1/get-weather/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "state",
+							"value": "columbia",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/v1/get-weather/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"get-weather",
+						""
+					]
+				},
+				"description": "Get Weather API"
+			},
+			"response": []
+		}
+	]
+}
